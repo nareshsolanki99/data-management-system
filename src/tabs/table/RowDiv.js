@@ -6,8 +6,8 @@ const RowDiv = props => {
     const { display, index, entry, clickHandler } = props
 
     return (
-        <div className="data-div" onClick={() => clickHandler(entry.orderid, index)}>
-            <h4>
+        <div className="data-div" >
+            <h4 onClick={() => clickHandler(entry.orderid, index)}>
                 <input
                     type="radio"
                     id="name"
