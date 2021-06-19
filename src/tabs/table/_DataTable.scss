@@ -1,0 +1,131 @@
+.main-data-div{
+    width:90%;
+    background-color:white;
+    margin-left: 70px;
+    display:flex;
+    flex-direction:column;
+
+    
+    
+
+    .data-div{
+        display:flex;
+        width:90%;
+        background-color:$grey3;
+        justify-content:space-between;
+        align-items:center;
+        border: 2px solid white;
+        font-size: 16px;
+        svg[data-icon="file-excel"]{
+            font-size:40px;
+            background-color:#059862;
+            background-clip: content-box;
+        }
+        svg[data-icon="download"]{
+            font-size:36px;
+        }
+        h4{
+            margin: 0px 8px;
+            border-right: 4px solid white;
+        }
+
+        h5{
+            margin: 0;
+            
+        }
+        a{
+            display:block;
+            text-decoration: none;
+            color: black;
+            
+        }
+        label{
+            display:flex;
+            align-items: center;
+            padding:16px;
+            padding-right: 44px;
+            border-right: 4px solid white;
+        }
+        span{
+            margin:24px
+        }
+        img{
+            width:40px;
+            height:40px;
+            margin-right: 8px;
+            border-radius: 50%;
+        }
+    }
+    .table-div{
+        width: 100%;
+        background-color:white;
+        table{
+            width: 80%;
+            th{
+                text-align:center;
+                &:first-of-type{
+                width:60px;
+                
+                }
+                &:nth-of-type(3){
+                    width:80px;
+                }
+                &:nth-of-type(5){
+                    width:80px;
+                }
+                &:nth-of-type(6){
+                    background-color:white
+                }
+
+            }
+            tr{
+                background-color:$grey4;
+                &:nth-child(odd){
+                    background-color:$grey5;
+                }
+                &:nth-child(even){
+                    background-color:$grey4;
+                }
+                &:first-of-type{
+                    background-color:black;
+                    color: white;
+                }
+                td{
+                    height:60px;
+                    padding:8px;
+                    font-size:16px;
+
+                    &:first-of-type{
+                        text-align:center;
+                    }
+                    &:nth-of-type(5){
+                        text-align:center;
+                    }
+
+                    &:nth-of-type(6){
+                        background-color:white;
+                    }
+                    &:nth-of-type(3){
+                        text-align: center;
+                    }
+
+                    i{
+                        font-size:28px;
+                        cursor: pointer;
+                    }
+                    img{
+                        width:20px;
+                        height:30px;
+                    }
+
+                }
+            }
+
+        }
+    }
+    
+    
+
+    
+       
+}

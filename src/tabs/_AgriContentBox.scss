@@ -1,0 +1,48 @@
+.main-div{
+    width:100%;
+    height:79vh;
+    background-color: white;
+    text-align: left;
+
+    .button-div{
+        display: flex;
+        padding:8px;
+        
+        justify-content: center;
+        button{
+            padding:12px;
+            width: 20%;
+            margin-top: 12px;
+            margin-right: 20px;
+            border-radius:4px;
+            color:white;
+            background-color:$grey2;
+            font-size:16px;
+            border:none;
+            cursor: pointer;
+
+            &:last-of-type{
+                background-color:$grey4;
+            }
+        }
+    }
+
+    .heading-div{
+
+        border-bottom: 2px solid $grey3;
+        margin:8px 16px;
+        h4{
+            margin:2px;
+            margin-left: 90px;
+            
+            span{
+                    margin:2px;
+                    margin-left:220px;
+                }
+        }
+
+    }
+
+    
+
+}

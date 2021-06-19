@@ -1,0 +1,39 @@
+.data-container{
+    width: 90%;
+    margin-left:16px;
+    background-color:white;
+    
+    .header-container{
+        text-align:left;
+    }
+
+    .agri-input-nav{
+        border-bottom: 3px solid $grey3;
+
+        ul{
+            list-style:none;
+            margin-left: 14%;
+            margin-bottom: 0;
+            cursor: pointer;
+            
+
+            li{
+                display: inline-block;
+                padding:24px 60px;
+                margin:2px;
+                color:white;
+                background-color:$grey2
+            }
+            .selected-tab{
+                background-color:$grey0;
+            }
+        }
+    }
+    .tab-div{
+        width:90%;
+        height:75vh;
+
+    }
+
+}
+

@@ -1,0 +1,102 @@
+[
+    {
+        "orderid":"13042020_1042",
+        "batched_by":"Alex Lee",
+        "img":"./images/img.jpg",
+        "date-time":"Mon,13 Apr,10.42 am",
+        "filepath":"./RFOList13042020_1042.xls",
+        "orderDetails":
+        [
+            {
+                "category":"Seed/Seedlings",
+                "image": "./images/fert1.jpg",
+                "description":"Chili Sataka 651(1500 seeds)",
+                "quantity":26
+            },
+            {
+                "category":"Nutrients/Fertilizer",
+                "image": "./images/fert2.jpg",
+                "description":"Acme Brand Fert A/B Set- 50kg",
+                "quantity":114
+            },
+            {
+                "category":"Pesticide/Fungicide",
+                "image": "./images/fert3.jpg",
+                "description":"Valients ME(Methyl Eugenol) 30ml",
+                "quantity":40
+            },
+            {
+                "category":"Growing/Medium",
+                "image": "./images/fert4.jpg",
+                "description":"Acme Brand Cocopeat - 30kg",
+                "quantity":20
+            },
+            {
+                "category":"Growing/Medium",
+                "image": "./images/fert5.jpg",
+                "description":"Acme Brand Cocohusk - 50kg",
+                "quantity":50
+            },
+            {
+                "category":"Pesticide/Fungicide",
+                "image": "./images/fert6.jpg",
+                "description":"Decis(Delthametrin) 1l",
+                "quantity":4
+            }
+
+            
+    
+    
+    
+    
+        ]
+    },
+    {
+        "orderid":"09042020_1112",
+        "batched_by":"Alex Lee",
+        "img":"./images/img.jpg",
+        "date-time":"Thu,09 Apr,11.12 am",
+        "filepath":"./RFOList130420_1042.xls",
+        "orderDetails":
+        [
+            {
+                "category":"Seed/Seedlings",
+                "image": "./images/fert1.jpg",
+                "description":"Chili Sataka 651(1500 seeds)",
+                "quantity":26
+            },
+            {
+                "category":"Nutrients/Fertilizer",
+                "image": "./images/fert2.jpg",
+                "description":"Acme Brand Fert A/B Set- 50kg",
+                "quantity":114
+            },
+            {
+                "category":"Pesticide/Fungicide",
+                "image": "./images/fert3.jpg",
+                "description":"Valients ME(Methyl Eugenol) 30ml",
+                "quantity":40
+            },
+            {
+                "category":"Growing/Medium",
+                "image": "./images/fert4.jpg",
+                "description":"Acme Brand Cocopeat - 30kg",
+                "quantity":20
+            },
+            {
+                "category":"Growing/Medium",
+                "image": "./images/fert5.jpg",
+                "description":"Acme Brand Cocohusk - 50kg",
+                "quantity":50
+            },
+            {
+                "category":"Pesticide/Fungicide",
+                "image": "./images/fert6.jpg",
+                "description":"Decis(Delthametrin) 1l",
+                "quantity":4
+            }
+        ]
+    }
+
+
+]
